@@ -153,11 +153,11 @@ genai/
 ### Manual Verification (BERT)
 | Review | True Sentiment | Predicted | Accuracy |
 |--------|----------------|-----------|----------|
-| "Worst watch ever. 1 star." | Negative | Negative | ✅ Correct |
-| "It is okay, average." | Neutral | Neutral | ✅ Correct |
-| "Amazing watch, love it!" | Positive | Positive | ✅ Correct |
-| "The watch keeps lagging..." | Negative | Negative | ✅ Correct |
-| "The watch is alright for basic use." | Neutral | Neutral | ✅ Correct |
+| "Worst watch ever. 1 star." | Negative | Negative | Correct |
+| "It is okay, average." | Neutral | Neutral |  Correct |
+| "Amazing watch, love it!" | Positive | Positive | Correct |
+| "The watch keeps lagging..." | Negative | Negative | Correct |
+| "The watch is alright for basic use." | Neutral | Neutral |  Correct |
 
 **Note**: The dataset contains labeling errors (some positive reviews mislabeled as negative), which affects calculated accuracy. However, manual testing confirms the BERT model performs correctly.
 
@@ -187,3 +187,5 @@ genai/
 ##  Author
 
 Developed as part of the ABC Company ML initiative to analyze ABC X1 Smartwatch customer feedback.
+developed by K.Kusala Krishna
+
